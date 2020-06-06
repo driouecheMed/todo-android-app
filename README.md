@@ -14,7 +14,7 @@ Task list is ordered by the date of the task.
 
  - You can Create & Edit Task.
 
- - A Task can be scheduled or no.
+ - A Task can be scheduled or not.
 
  - If the task is scheduled, you get a notification when the time of task is arrived.
 
