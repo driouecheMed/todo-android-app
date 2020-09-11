@@ -7,7 +7,7 @@
 *.cpp   diff=cpp
 *.h     diff=cpp
 *.java  diff=java
-
+*.xml   linguist-generated=true 
 
 
 # Documents
