@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    app:cardBackgroundColor="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- ellipsize : if the title is more than one line "..." appears at the end -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:text="bla bla bla bla bla ...." />
+
+        <!--
+        ////////////////////////////////////////////////////////
+        those two information have been added to snackbar
+        ////////////////////////////////////////////////////////
+        <android.widget.TextClock
+            android:id="@+id/dateT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_event_24dp"
+            android:format12Hour="dd.MM.yyyy"
+            android:format24Hour="@null"
+            android:text="11/2/2020" />
+
+        <android.widget.TextClock
+            android:id="@+id/timeT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@id/dateT"
+            android:drawableLeft="@drawable/ic_access_time_24dp"
+            android:format12Hour="@null"
+            android:format24Hour="hh:mm"
+            android:text="12:30" />
+        -->
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
